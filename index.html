@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tic Tac Toe</title>
+
+        <link rel="shortcut icon" href="src/img/tictactoe-512.png" type="image/x-icon">
+        <link rel="stylesheet" href="src/css/style.css">
+        <link rel="stylesheet" href="src/css/game.css">
+    </head>
+    <body>
+        <section class="game-page" id="game-page">
+            <div class="container">
+                <div class="page-title" id="page-title">
+                    # Tic Tac Toe
+                </div>
+                <!-- <div class="scoring-board" id="scoring-board">
+                    <div class="red-board" id="red-board">
+                        <div class="red-player" id="red-player">x</div>
+                        <span>-</span>
+                        <div class="red-player-score" id="red-player-score"></div>
+                    </div>
+                    <div class="blue-board" id="blue-board">
+                        <div class="blue-player" id="blue-player">o</div>
+                        <span>-</span>
+                        <div class="blue-player-score" id="blue-player-score"></div>
+                    </div>
+                </div> -->
+                <div class="page-content" id="page-content">
+                    <div class="board" id="board">
+                        <div class="cell">
+                            <button class="btn" id="btn1" onclick="add_1()"></button>
+                        </div>
+                        <div class="cell">
+                            <button class="btn" id="btn2" onclick="add_2()"></button>
+                        </div>
+                        <div class="cell">
+                            <button class="btn" id="btn3" onclick="add_3()"></button>
+                        </div>
+                        <div class="cell">
+                            <button class="btn" id="btn4" onclick="add_4()"></button>
+                        </div>
+                        <div class="cell">
+                            <button class="btn" id="btn5" onclick="add_5()"></button>
+                        </div>
+                        <div class="cell">
+                            <button class="btn" id="btn6" onclick="add_6()"></button>
+                        </div>
+                        <div class="cell">
+                            <button class="btn" id="btn7" onclick="add_7()"></button>
+                        </div>
+                        <div class="cell">
+                            <button class="btn" id="btn8" onclick="add_8()"></button>
+                        </div>
+                        <div class="cell">
+                            <button class="btn" id="btn9" onclick="add_9()"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="resultBoard" id="resultBoard">
+                    <button class="closeBtn" id="closeBtn" onclick="closeAlert()">x</button>
+                    <div class="game-result" id="game-result"></div>
+                    <div class="replay-btn" id="replay-btn">
+                        <!-- <button class="reset-btn" id="reset-btn" onclick="reset_btn()">
+                            Reset Game
+                        </button> -->
+                        <button class="play-again-btn" id="play-again-btn" onclick="playAgain_btn()">
+                            Play Again
+                        </button>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>      
+
+        <script src="src/js/index.js"></script>
+    </body>
+</html>
